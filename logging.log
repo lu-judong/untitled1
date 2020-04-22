@@ -1,0 +1,10 @@
+2020-04-15 16:47:30 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:62406/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-04-15 16:47:30 connectionpool.py[line:225] DEBUG Starting new HTTP connection (1): 127.0.0.1:62406
+2020-04-15 16:47:35 connectionpool.py[line:437] DEBUG http://127.0.0.1:62406 "POST /session HTTP/1.1" 200 889
+2020-04-15 16:47:35 remote_connection.py[line:440] DEBUG Finished Request
+2020-04-15 16:47:35 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:62406/session/a930c2cd6d8c0b1101383541748040a8/window/current/maximize {"windowHandle": "current", "sessionId": "a930c2cd6d8c0b1101383541748040a8"}
+2020-04-15 16:47:40 connectionpool.py[line:437] DEBUG http://127.0.0.1:62406 "POST /session/a930c2cd6d8c0b1101383541748040a8/window/current/maximize HTTP/1.1" 200 72
+2020-04-15 16:47:40 remote_connection.py[line:440] DEBUG Finished Request
+2020-04-15 16:47:40 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:62406/session/a930c2cd6d8c0b1101383541748040a8/url {"url": "http://192.168.221.25:8380/darams/doc.html", "sessionId": "a930c2cd6d8c0b1101383541748040a8"}
+2020-04-15 16:47:41 connectionpool.py[line:437] DEBUG http://127.0.0.1:62406 "POST /session/a930c2cd6d8c0b1101383541748040a8/url HTTP/1.1" 200 348
+2020-04-15 16:47:41 remote_connection.py[line:440] DEBUG Finished Request
