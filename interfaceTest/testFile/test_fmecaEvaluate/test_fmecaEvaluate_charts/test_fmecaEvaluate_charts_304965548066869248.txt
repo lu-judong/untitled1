@@ -1,0 +1,1 @@
+{"success":true,"code":"10","message":"成功！","token":"YWRtaW4sMThiMjI3ZTJkYTBlNGQyZjg4NzE4YzhlMDIxMmVjZWIsMTU4NzUyOTY5Nzc5Nw==","result":{"legend":["松动/脱落","电缆","电缆终端","空白","绝缘破损","裂纹/断裂/破损"],"outer":"[{\"绝缘破损\":10},{\"裂纹/断裂/破损\":7},{\"松动/脱落\":1},{\"空白\":14},{\"裂纹/断裂/破损\":7},{\"松动/脱落\":1},{\"空白\":14}]","inner":"[{\"电缆\":32},{\"电缆终端\":22}]"}}

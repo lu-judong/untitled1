@@ -1,0 +1,1 @@
+acu_cost_list = {'acu_train':'http://192.168.1.115:8283/lcc/basic/cdTrainGroup/trainType'}

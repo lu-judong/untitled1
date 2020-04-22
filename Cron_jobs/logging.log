@@ -1,0 +1,9 @@
+2019-12-06 15:01:51 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2019-12-06 15:01:51 base.py[line:881] INFO Added job "Cron.insert" to job store "default"
+2019-12-06 15:01:51 base.py[line:166] INFO Scheduler started
+2019-12-06 15:01:51 base.py[line:940] DEBUG Looking for jobs to run
+2019-12-06 15:01:51 base.py[line:1020] DEBUG Next wakeup is due at 2019-12-06 15:02:00+08:00 (in 8.537658 seconds)
+2019-12-06 15:02:00 base.py[line:940] DEBUG Looking for jobs to run
+2019-12-06 15:02:00 base.py[line:123] INFO Running job "Cron.insert (trigger: cron[hour='15', minute='2'], next run at: 2019-12-06 15:02:00 CST)" (scheduled at 2019-12-06 15:02:00+08:00)
+2019-12-06 15:02:00 base.py[line:1020] DEBUG Next wakeup is due at 2019-12-07 15:02:00+08:00 (in 86399.967923 seconds)
+2019-12-06 15:02:29 base.py[line:144] INFO Job "Cron.insert (trigger: cron[hour='15', minute='2'], next run at: 2019-12-07 15:02:00 CST)" executed successfully

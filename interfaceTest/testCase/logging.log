@@ -1,0 +1,2 @@
+2020-04-22 14:21:37 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51597/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-04-22 14:21:37 connectionpool.py[line:225] DEBUG Starting new HTTP connection (1): 127.0.0.1:51597

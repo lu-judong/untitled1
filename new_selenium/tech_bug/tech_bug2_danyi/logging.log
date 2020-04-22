@@ -1,0 +1,70 @@
+2019-02-21 14:17:06 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-02-21 14:17:06 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:52844
+2019-02-21 14:17:08 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session HTTP/1.1" 200 886
+2019-02-21 14:17:08 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:08 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/url {"url": "http://193.112.209.138:9092/darams/a/login;JSESSIONID=a183b49c056e4ef5991c66ad7ea7fc50000", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:17 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/url HTTP/1.1" 200 72
+2019-02-21 14:17:17 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "id", "value": "username", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 103
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-1/clear {"id": "0.06673556071895903-1", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-1/clear HTTP/1.1" 200 72
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "id", "value": "username", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 103
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-1/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.06673556071895903-1", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-1/value HTTP/1.1" 200 72
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "id", "value": "password", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 103
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-2/clear {"id": "0.06673556071895903-2", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-2/clear HTTP/1.1" 200 72
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "id", "value": "password", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 103
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.06673556071895903-2", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-2/value HTTP/1.1" 200 72
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "xpath", "value": "//*[@id=\"submit\"]", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:19 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 103
+2019-02-21 14:17:19 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-3/click {"id": "0.06673556071895903-3", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:22 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.06673556071895903-3/click HTTP/1.1" 200 72
+2019-02-21 14:17:22 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:22 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "xpath", "value": "//a[contains(text(),'\u8fd0\u8425\u6570\u636e\u7edf\u8ba1\u5206\u6790\u7cfb\u7edf')]", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:23 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 103
+2019-02-21 14:17:23 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:23 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.13979689241386573-1/click {"id": "0.13979689241386573-1", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:23 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.13979689241386573-1/click HTTP/1.1" 200 72
+2019-02-21 14:17:23 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:23 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "xpath", "value": "//a[contains(text(),'\u5355\u4e00\u6a21\u578b\u6307\u6807\u5206\u6790')]", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:23 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 103
+2019-02-21 14:17:23 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:23 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.13979689241386573-2/click {"id": "0.13979689241386573-2", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:25 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.13979689241386573-2/click HTTP/1.1" 200 72
+2019-02-21 14:17:25 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:27 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/frame {"id": null, "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:27 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/frame HTTP/1.1" 200 72
+2019-02-21 14:17:27 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:27 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "xpath", "value": "//iframe[contains(@src,'/darams/a/mould/singleModel')]", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:27 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 103
+2019-02-21 14:17:27 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:27 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/frame {"id": {"ELEMENT": "0.13979689241386573-3", "element-6066-11e4-a52e-4f735466cecf": "0.13979689241386573-3"}, "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:27 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/frame HTTP/1.1" 200 72
+2019-02-21 14:17:27 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:29 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "xpath", "value": "//a[contains(text(),'test1')]/../../td[9]/a[3]", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:29 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 102
+2019-02-21 14:17:29 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:29 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.8968853755409727-1/click {"id": "0.8968853755409727-1", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:29 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element/0.8968853755409727-1/click HTTP/1.1" 200 72
+2019-02-21 14:17:29 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:31 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/frame {"id": null, "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:31 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/frame HTTP/1.1" 200 72
+2019-02-21 14:17:31 remote_connection.py[line:440] DEBUG Finished Request
+2019-02-21 14:17:31 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:52844/session/a0ca92c17e0a06848ecc4d69b8e49196/element {"using": "css selector", "value": "[class='layui-layer layui-layer-iframe']", "sessionId": "a0ca92c17e0a06848ecc4d69b8e49196"}
+2019-02-21 14:17:31 connectionpool.py[line:393] DEBUG http://127.0.0.1:52844 "POST /session/a0ca92c17e0a06848ecc4d69b8e49196/element HTTP/1.1" 200 377
+2019-02-21 14:17:31 remote_connection.py[line:440] DEBUG Finished Request
