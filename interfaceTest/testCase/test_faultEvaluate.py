@@ -509,7 +509,7 @@ class test_fault(unittest.TestCase):
 
     @ddt.file_data(
         '{}/testInput/test_faultEvaluate_input/test_4_faultEvaluate_charts.json'.format(path_dir))
-    def test_7_repairSystemEvaluate_charts4(self, modelId):
+    def test_7_faultEvaluate_charts4(self, modelId):
         """故障占比图表4接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:
@@ -608,7 +608,7 @@ class test_fault(unittest.TestCase):
 
     @ddt.file_data(
         '{}/testInput/test_faultEvaluate_input/test_4_faultEvaluate_charts.json'.format(path_dir))
-    def test_8_repairSystemEvaluate_charts5(self, modelId):
+    def test_8_faultEvaluate_charts5(self, modelId):
         """故障占比图表5接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:

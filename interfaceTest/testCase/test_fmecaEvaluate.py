@@ -164,10 +164,6 @@ class test_fmeca(unittest.TestCase):
                     # 获取计算状态接口的地址
                     report_url = driver.find_element_by_xpath('//span[text()="接口地址"]/../code').text
 
-                    # 判断文件中是否存在
-                    file = '{}/testFile/test_fmecaEvaluate/test_fmecaEvaluate_report/test_fmecaEvaluate_report_{}.txt'.format(
-                        path_dir, modelId)
-
                     # 判断接口状态
                     if report_interface_status == 'normal':
                         body = {"confModelId": "{}".format(modelId)
@@ -177,61 +173,34 @@ class test_fmeca(unittest.TestCase):
                             "Authorization": globals()["Authorization"]["Authorization"],
                             "Content-Type": "application/json;charset=UTF-8"},
                                                      params=body)
+                        report_response = json.loads(report_send.text)
                         url = interface_url + report_url
                         params = json.dumps(body)
 
-                        if os.path.exists(file) is True:
-                            pass
-                        else:
-                            fp = open(file, 'wb')
-                            fp.write(report_send.text.encode())
-                            fp.close()
+                        if report_send.status_code == 200:
 
-                        # 判断文件是否有信息
-                        sz = os.path.getsize(file)
-                        if not sz:
-                            fp = open(file, 'wb')
-                            fp.write(report_send.text.encode())
-                            self.assertEqual(4, 4)
-                        else:
-                            fp = open(file, 'r', encoding='UTF-8')
-                            # 因为每次请求的token值不一样 =所以得删除掉在对比
-                            dict_fp = json.loads(fp.read())
-                            dict_ramscharts = json.loads(report_send.text)
-                            del dict_fp['token']
-                            del dict_ramscharts['token']
-                            if dict_fp == dict_ramscharts:
-
+                            if report_response['success'] is True:
                                 self.assertEqual(4, 4)
-                            else:
-                                if 'result' in dict_ramscharts.keys():
-                                    result = dict_ramscharts['result']
-                                    del dict_ramscharts['result']
 
-                                    write_sheet(path, 'fmeca报表接口', url, params,
-                                                json.dumps(dict_ramscharts, ensure_ascii=False),
-                                                json.dumps(result, ensure_ascii=False)[:2000])
+                            else:
+                                if 'result' in report_response.keys():
+                                    result = report_response['result']
+                                    del report_response['result']
+
+                                    write_sheet(path, '自动FMECA报表接口', url, params,
+                                                json.dumps(report_response, ensure_ascii=False), json.dumps(result))
                                 else:
-                                    write_sheet(path, 'fmeca报表接口', url, params,
-                                                json.dumps(dict_ramscharts, ensure_ascii=False),
-                                                '')
+                                    write_sheet(path, '自动FMECA报表接口', url, params,
+                                                json.dumps(report_response, ensure_ascii=False), '')
 
                                 self.assertEqual(3, 4)
-
-                        fp.close()
-
-                    else:
-                        # 先放着处理逻辑
-                        text = ''
-                        # 清空存放接口result的文件
-                        if os.path.exists(file) is True:
-                            fp = open(file, 'wb')
-                            fp.truncate()
-                            fp.close()
                         else:
-                            fp = open(file, 'wb')
-                            fp.write(text)
-                            fp.close()
+                            write_sheet(path, '自动FMECA报表接口', url, params,
+                                        '自动FMECA报表接口返回'.format(report_send.status_code), '')
+
+                            self.assertEqual(3, 4)
+
+
 
 
                 except AssertionError:

@@ -412,7 +412,7 @@ class test_singelModel(unittest.TestCase):
                 pass
 
     @ddt.file_data('{}/testInput/test_singleModelEvaluate_input/test_4_singleModelEvaluate_charts.json'.format(path_dir))
-    def test_6_faultEvaluate_charts2(self, modelId):
+    def test_6_singleModelEvaluate_charts2(self, modelId):
         """单一模型图表2接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:
@@ -512,7 +512,7 @@ class test_singelModel(unittest.TestCase):
 
     @ddt.file_data(
         '{}/testInput/test_singleModelEvaluate_input/test_4_singleModelEvaluate_charts.json'.format(path_dir))
-    def test_7_faultEvaluate_charts3(self, modelId):
+    def test_7_singleModelEvaluate_charts3(self, modelId):
         """单一模型图表3接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:
@@ -612,7 +612,7 @@ class test_singelModel(unittest.TestCase):
 
     @ddt.file_data(
         '{}/testInput/test_singleModelEvaluate_input/test_4_singleModelEvaluate_charts.json'.format(path_dir))
-    def test_8_repairSystemEvaluate_charts4(self, modelId):
+    def test_8_singleModelEvaluate_charts4(self, modelId):
         """单一模型图表4接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:
@@ -811,7 +811,7 @@ class test_singelModel(unittest.TestCase):
 
     @ddt.file_data(
         '{}/testInput/test_singleModelEvaluate_input/test_4_singleModelEvaluate_charts.json'.format(path_dir))
-    def test_10_singleModelEvaluate_trainEvaluate(self, modelId):
+    def test_A_singleModelEvaluate_trainEvaluate(self, modelId):
         """单一模型列车评估接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:
@@ -909,7 +909,7 @@ class test_singelModel(unittest.TestCase):
 
     @ddt.file_data(
         '{}/testInput/test_singleModelEvaluate_input/test_4_singleModelEvaluate_charts.json'.format(path_dir))
-    def test_11_singleModelEvaluate_trainEvaluate(self, modelId):
+    def test_Z_singleModelEvaluate_trainFaultRate(self, modelId):
         """单一模型故障率列表接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:

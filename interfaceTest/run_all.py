@@ -1,5 +1,5 @@
 import unittest
-import HTMLTestRunnerNew
+from BeautifulReport import BeautifulReport
 import os
 from tomorrow import threads
 
@@ -31,7 +31,7 @@ def add_case(case_path=casepath, rule="test*.py"):
 @threads(3)
 def run(test_suit):
     '''执行所有的用例, 并把结果写入测试报告'''
-    result = BeautifulReport(tesa_suit)
+    result = BeautifulReport(test_suit)
     result.report(filename='report.html', description='测试deafult报告', log_path=r"report")
 
 if __name__ == "__main__":
