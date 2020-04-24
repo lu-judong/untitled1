@@ -1,0 +1,15 @@
+{
+  "数据1":
+  {"body":
+  {
+    "faultObjectId": "100016",
+	"pageNum": 1,
+	"pageSize": 10,
+	"patternClass": "",
+	"patternCode": "",
+	"patternDesc": "",
+	"patternName": "漏风",
+	"unitType": ""
+  }
+  }
+}
