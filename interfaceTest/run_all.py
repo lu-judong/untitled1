@@ -2,11 +2,16 @@ import unittest
 from BeautifulReport import BeautifulReport
 import os
 from tomorrow import threads
+from interfaceTest.config.config import path_dir
+from interfaceTest.config.main import create_sheet
 
 # 获取路径
 curpath = os.path.dirname(os.path.realpath(__file__))
 
 casepath = os.path.join(curpath, "testCase")
+
+path = '{}/testOutput/interface-sheet.xls'.format(path_dir)
+create_sheet(path)
 
 if not os.path.exists(casepath):
 

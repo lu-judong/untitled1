@@ -14,7 +14,7 @@ class test_supplier(unittest.TestCase):
     @classmethod
     def setUpClass(cls):  # 类中最先执行
         cls.path = '{}/testOutput/interface-sheet.xls'.format(path_dir)
-        create_sheet(cls.path)
+        # create_sheet(cls.path)
         cls.driver = webdriver.Chrome()
 
         cls.driver.maximize_window()
@@ -337,7 +337,7 @@ class test_supplier(unittest.TestCase):
 
     @ddt.file_data(
         '{}/testInput/test_supplierEvaluate_input/test_4_supplierEvaluate_charts.json'.format(path_dir))
-    def test_6_innerControlEvaluate_charts3(self, modelId):
+    def test_6_supplierEvaluate_charts3(self, modelId):
         """供应商维度图表3接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:
@@ -437,7 +437,7 @@ class test_supplier(unittest.TestCase):
 
     @ddt.file_data(
         '{}/testInput/test_supplierEvaluate_input/test_4_supplierEvaluate_charts.json'.format(path_dir))
-    def test_7_innerControlEvaluate_getSelectSupplier(self, modelId):
+    def test_7_supplierEvaluate_getSelectSupplier(self, modelId):
         """供应商维度获取模型的下拉框供应商接口"""
         path = self.path
         if len(globals()["Authorization"]) == 0:

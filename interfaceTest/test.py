@@ -11,15 +11,14 @@ from interfaceTest.config.config import *
 # 	"interval": 1
 # }
 # }
-body = {"confModelId": "{}".format("304965548066869248"),
-
-
-                        }
+params = {"trainNo": "2912",
+                            "pageNo": "1",
+                            "pageSize": "10"}
 
 # a = requests.post(interface_url + "/darams/supplier-rams/chart3", headers={
 #                             "Authorization": "18106a67-274d-41c4-876e-5b1dfa4cc75f","Content-Type": "application/json;charset=UTF-8"},params=body
 #                ,                                         )
-a = requests.post(interface_url+"/darams/model/fmeca/export",headers={"Authorization": "18106a67-274d-41c4-876e-5b1dfa4cc75f"},params=body)
+a = requests.post(interface_url + "/darams/trainInfo/findMileage",headers={"Authorization": "15c76cab-c799-400d-aa5c-88fda8711525", "Content-Type": "application/json;charset=UTF-8"},params=params)
 
 a1 = json.loads(a)
 

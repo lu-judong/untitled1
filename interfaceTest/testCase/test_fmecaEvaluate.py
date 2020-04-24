@@ -14,7 +14,7 @@ class test_fmeca(unittest.TestCase):
     @classmethod
     def setUpClass(cls):  # 类中最先执行
         cls.path = '{}/testOutput/interface-sheet.xls'.format(path_dir)
-        create_sheet(cls.path)
+        # create_sheet(cls.path)
         cls.driver = webdriver.Chrome()
 
         cls.driver.maximize_window()
