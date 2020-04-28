@@ -53,6 +53,7 @@ class test_ramsInterface(unittest.TestCase):
     # @ddt.data([1,2],[2,3])
     @ddt.file_data('{}/testInput/test_ramsEvaluate_input/test_1_login.json'.format(path_dir))
     def test_1_login(self,username,password):
+        path = self.path
         # """登录接口"""
         try:
             # f = open('')
@@ -76,7 +77,7 @@ class test_ramsInterface(unittest.TestCase):
             login_send = requests.post(interface_url + login_interface_url,
                                        data={'username': '{}'.format(username), 'password': '{}'.format(password)})
             login_response = json.loads(login_send.text)
-            path = self.path
+
             url = interface_url + login_interface_url
             params = json.dumps({'username': '{}'.format(username),'password': '{}'.format(password)})
             if login_send.status_code == 200:

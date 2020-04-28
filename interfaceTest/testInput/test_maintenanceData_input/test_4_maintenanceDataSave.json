@@ -1,0 +1,43 @@
+{
+  "数据1": {
+    "save": {
+      "averageRepairTime": {
+        "avgAcceptableValue": "2",
+        "avgConsumerRisk": "3",
+        "avgOverallVariance": "1",
+        "avgProducerRisk": "2",
+        "avgRepairTimeType": "1",
+        "avgUnacceptableValue": "1"
+      },
+      "confModel": {
+        "modelCode": "11",
+        "modelName": "22",
+        "modelType": "MAINTENANCE",
+        "remarks": ""
+      },
+      "maintenanceData": [
+        "1"
+      ],
+      "maintenanceParameter": {
+        "logConfidence": "3",
+        "logMaintenanceDegree": "2",
+        "logMeanType": "1",
+        "logMeanValue": "1",
+        "logVarianceType": "1",
+        "logVarianceValue": "2",
+        "unknownConfidence": "3",
+        "unknownVarianceType": "1",
+        "unknownVarianceValue": "2"
+      },
+      "maxRepairTime": {
+        "maxAcceptableValue": "2",
+        "maxConsumerRisk": "2",
+        "maxMaintenanceDegree": "3",
+        "maxOverallLogVariance": "2",
+        "maxProducerRisk": "3",
+        "maxRepairTimeType": "对数正态",
+        "maxUnacceptableValue": "1"
+      }
+    }
+  }
+}

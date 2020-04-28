@@ -1,0 +1,148 @@
+{
+  "数据1": {
+    "data": {
+      "data": [
+        {
+          "id": "可靠性参数评估---测试42---RAMS_CHART_AVERAGE_INTERVAL_BETWEEN_FAILURES",
+          "parentId": "654a52bde8544482842db939ef4afffd005",
+          "name": "平均故障间隔里程",
+          "modelType": "USER_MODEL",
+          "children": [],
+          "checked": true,
+          "chartCode": "RAMS_CHART_AVERAGE_INTERVAL_BETWEEN_FAILURES",
+          "causeId": null,
+          "_level": 2,
+          "_star": false
+        },
+        {
+          "id": "可靠性参数评估---测试42---RAMS_CHART_MILLION_KILOMETERS_FAILURE_RATE",
+          "parentId": "654a52bde8544482842db939ef4afffd005",
+          "name": "百万公里故障率",
+          "modelType": "USER_MODEL",
+          "children": [],
+          "checked": true,
+          "chartCode": "RAMS_CHART_MILLION_KILOMETERS_FAILURE_RATE",
+          "causeId": null,
+          "_level": 2,
+          "_star": false
+        },
+        {
+          "id": "可靠性参数评估---测试42---RAMS_CHART_AVERAGE_REPAIR_TIME",
+          "parentId": "654a52bde8544482842db939ef4afffd005",
+          "name": "平均修复时间",
+          "modelType": "USER_MODEL",
+          "children": [],
+          "checked": true,
+          "chartCode": "RAMS_CHART_AVERAGE_REPAIR_TIME",
+          "causeId": null,
+          "_level": 2,
+          "_star": false
+        },
+        {
+          "id": "可靠性参数评估---测试42---RAMS_CHART_INHERENT_AVAILABILITY",
+          "parentId": "654a52bde8544482842db939ef4afffd005",
+          "name": "固有可用度",
+          "modelType": "USER_MODEL",
+          "children": [],
+          "checked": true,
+          "chartCode": "RAMS_CHART_INHERENT_AVAILABILITY",
+          "causeId": null,
+          "_level": 2,
+          "_star": false
+        }
+      ],
+      "layout": {
+        "gridLayout": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 6,
+            "h": 13,
+            "i": "1791959e9de64f3d9fa4352eca0b46b7WEB",
+            "moved": false,
+            "resizeCount": 0,
+            "chart": {
+              "modelId": "654a52bde8544482842db939ef4afffd005",
+              "causeId": null,
+              "dimension": "可靠性参数评估---测试42---RAMS_CHART_AVERAGE_INTERVAL_BETWEEN_FAILURES",
+              "chartData": {},
+              "title": "可靠性参数评估-测试42",
+              "name": "平均故障间隔里程",
+              "modelType": "USER_MODEL",
+              "trainType": "E27"
+            }
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "w": 6,
+            "h": 13,
+            "i": "953131685d5241dc848cc1e8230e19cbWEB",
+            "moved": false,
+            "resizeCount": 0,
+            "chart": {
+              "modelId": "654a52bde8544482842db939ef4afffd005",
+              "causeId": null,
+              "dimension": "可靠性参数评估---测试42---RAMS_CHART_MILLION_KILOMETERS_FAILURE_RATE",
+              "chartData": {},
+              "title": "可靠性参数评估-测试42",
+              "name": "百万公里故障率",
+              "modelType": "USER_MODEL",
+              "trainType": "E27"
+            }
+          },
+          {
+            "x": 0,
+            "y": 13,
+            "w": 6,
+            "h": 13,
+            "i": "83fcc548c60f46f7b115d140648bd6c5WEB",
+            "moved": false,
+            "resizeCount": 0,
+            "chart": {
+              "modelId": "654a52bde8544482842db939ef4afffd005",
+              "causeId": null,
+              "dimension": "可靠性参数评估---测试42---RAMS_CHART_AVERAGE_REPAIR_TIME",
+              "chartData": {},
+              "title": "可靠性参数评估-测试42",
+              "name": "平均修复时间",
+              "modelType": "USER_MODEL",
+              "trainType": "E27"
+            }
+          },
+          {
+            "x": 6,
+            "y": 13,
+            "w": 6,
+            "h": 13,
+            "i": "8f0e0c1774864ab19358d762dabc6728WEB",
+            "moved": false,
+            "resizeCount": 0,
+            "chart": {
+              "modelId": "654a52bde8544482842db939ef4afffd005",
+              "causeId": null,
+              "dimension": "可靠性参数评估---测试42---RAMS_CHART_INHERENT_AVAILABILITY",
+              "chartData": {},
+              "title": "可靠性参数评估-测试42",
+              "name": "固有可用度",
+              "modelType": "USER_MODEL",
+              "trainType": "E27"
+            }
+          }
+        ],
+        "curUseType": {
+          "x": 0,
+          "y": 0,
+          "w": 6,
+          "h": 13,
+          "i": "d734f8c91be7453c93662dd5626bb56bWEB",
+          "moved": false,
+          "resizeCount": 0,
+          "chart": {}
+        },
+        "styleIndex": -1,
+        "startCheckAllData": {}
+      }
+    }
+  }
+}

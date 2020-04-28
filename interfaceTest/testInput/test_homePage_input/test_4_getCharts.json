@@ -1,0 +1,34 @@
+{
+  "数据1": {
+    "data": [
+      {
+        "chartCode": "TECHNICAL_CHART_MILLION_KILOMETERS_FAILURE_RATE",
+        "interval": 0,
+        "modelId": "ad2199b5112742028a70bbe59993443b005",
+        "optionValue": "",
+        "tagValue": ""
+      },
+      {
+        "chartCode": "TECHNICAL_CHART_INHERENT_AVAILABILITY",
+        "interval": 0,
+        "modelId": "ad2199b5112742028a70bbe59993443b005",
+        "optionValue": "",
+        "tagValue": ""
+      },
+      {
+        "chartCode": "TECHNICAL_CHART_MILLION_KILOMETERS_FAILURE_RATE_COMPONENT",
+        "interval": 0,
+        "modelId": "ad2199b5112742028a70bbe59993443b005",
+        "optionValue": "",
+        "tagValue": ""
+      },
+      {
+        "chartCode": "TECHNICAL_CHART_MILLION_KILOMETERS_FAILURE_RATE_ALL",
+        "interval": 0,
+        "modelId": "ad2199b5112742028a70bbe59993443b005",
+        "optionValue": "",
+        "tagValue": ""
+      }
+    ]
+  }
+}

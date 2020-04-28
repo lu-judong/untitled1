@@ -1,0 +1,58 @@
+{
+  "计算完成模型1":{
+    "data":
+    {
+      "confDateList":
+      [{
+        "endDate": "",
+        "startDate": "",
+        "averageSpeed": "",
+        "averageSpeedSelect": ""
+      }],
+      "confFaultObjectList":
+      [{
+        "faultObjectId": "100038,100198,100200,100199,10047070"
+      }],
+      "confFaultPatternList":
+      [{
+        "confFaultObjectId": "",
+        "faultPatternId": "",
+        "faultObject": "",
+        "faultPattern": ""
+      }],
+      "confLateHoursList":
+      [{
+        "lateHoursFrom": "3",
+        "lateHoursTo": "",
+        "lateType": "either"
+      }],
+      "confMileageList":
+      [{
+        "startMileage": "1000000",
+        "endMileage": "2000000",
+        "averageSpeedSelect": "180",
+        "averageSpeed": "180"
+      }],
+      "confMileageSelect":"",
+      "confModelTrainList":
+      [{
+        "trainNoId": "66c0733b77264c0bb511b0cd7f50a547000,53ed5271f46e43ba80535c3d63d7ca63000,edec70f62bfc43fb81fa439643a17950000",
+        "trainTypeCode":"E27"
+      }],
+      "confServiceFaultList":
+      [{
+        "faultDefine": "0,1,2"
+      }],
+      "confSupplierList":
+      [{
+       "supplierId": "",
+        "supplierName": ""
+      }],
+      "id": "",
+      "identification": "darams",
+      "jsonMarks": "{\"includeChildren\":0}",
+      "modelObject": "3",
+      "modelId":"023213124"
+    }
+  }
+}

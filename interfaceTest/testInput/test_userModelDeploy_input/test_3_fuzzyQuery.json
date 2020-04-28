@@ -1,0 +1,11 @@
+{
+  "功能1": {
+    "model": {
+      "pageNo": 1,
+      "pageSize": 10,
+      "adaptation": "",
+      "modelType": "USER_MODEL",
+      "modelId":"1111"
+    }
+  }
+}

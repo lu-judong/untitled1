@@ -1,0 +1,24 @@
+{
+  "数据1":{
+    "data":{
+      "modelCode":"",
+      "modelName":"",
+      "modelObject":"3",
+      "remarks":"",
+      "caseSelect":6,
+      "confDateList":[{"endDate":"","startDate":"","averageSpeed":"","averageSpeedSelect":"","intervalDate":""}],
+      "confMileageList":[{"startMileage":1000000,"endMileage":2000000,"averageSpeed":"","averageSpeedSelect":"260","businessFlag":"Before"},{"startMileage":2000000,"endMileage":3000000,"averageSpeed":"","averageSpeedSelect":"260","businessFlag":"After"}],
+      "confLateHoursList":[{"lateHoursFrom":"3","lateHoursTo":"","lateType":"either"}],
+      "confFaultPatternList":[{"confFaultObjectId":"","faultPatternId":"","faultObject":"","faultPattern":""}],
+      "confSupplierList":[{"supplierName":"","supplierId":""}],
+      "confServiceFaultList":[{"faultDefine":"掉线,晚点,未出库"}],
+      "confFaultObjectList":[{"faultObjectId":"100003,10001148,100038,100198,100200,100199,10047070,100042,100036,100189,100188,100190,100043,100040,100214,100221,100220,100219,100212,100776,10047068,100218,100217,100215,100210,100211,100775,100216,100213,100209,100039,100202,100201,100204,100203,100205,100208,100206,100774,100207,100035,100183,100187,100178,100172,100177,100767,100764,100765,100766,10047069,100763,100185,10026001,10047071,100175,100179,100176,100186,100173,10001099,100184,100180,100174,100760,100755,100761,100759,100754,100762,100756,100758,100757,100182,100181,100768,100769,100045,100046,100224,100222,100223,100041,100037,100196,100191,10001117,100771,100770,10001109,100197,10001125,100193,100772,100773,10001114,10001129,100192,100195,100194,10001116,10001139,100044","patternEnable":"0"}],
+      "confModelTrainList":[{"trainNoId":"66c0733b77264c0bb511b0cd7f50a547000,53ed5271f46e43ba80535c3d63d7ca63000,edec70f62bfc43fb81fa439643a17950000,afb90a604ea94520b860e1798fc4eec0000","trainTypeCode":"E27"}],
+      "showInter":true,
+      "modelType":"REPAIR_PROCEDURE_MODEL",
+      "calculationStatus":"new",
+      "identification":"darams",
+      "modelId":"00001"
+    }
+  }
+}
